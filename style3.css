@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.zomato-header {
+  background-image: url("https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=1400&q=80");
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.zomato-content {
+  background-color: rgba(0, 0, 0, 0.4); /* subtle transparent black box */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.zomato-content h1 {
+  font-size: 36px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.zomato-content p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.search-box input {
+  padding: 8px;
+  margin: 5
+}
